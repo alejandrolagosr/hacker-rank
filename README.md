@@ -5,3 +5,4 @@ All Hacker-Rank problems I've solved
 - SimpleArraySum
 - CompleteTheTriplets
 - AVeryBigSum
+- DiagonalDifference
