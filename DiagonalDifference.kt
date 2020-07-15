@@ -76,9 +76,11 @@ import kotlin.text.*
  */
 
 fun diagonalDifference(arr: Array<Array<Int>>): Int {
-    var leftToRight = arr[0][0] + arr[1][1] + arr[2][2]
-    var rightToLeft = arr[0][2] + arr[1][1] + arr[2][0]
-    return Math.abs(leftToRight - rightToLeft)
+    return Math.abs(
+        arr.indices.sumBy { 
+            arr[it][it] - arr[it][arr[0].size-it-1]
+         }
+    )
 }
 
 fun main(args: Array<String>) {
