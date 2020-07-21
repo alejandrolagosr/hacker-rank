@@ -6,3 +6,4 @@ All Hacker-Rank problems I've solved
 - CompleteTheTriplets
 - AVeryBigSum
 - DiagonalDifference
+- PlusMinus
