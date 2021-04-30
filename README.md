@@ -7,3 +7,5 @@ All Hacker-Rank problems I've solved
 - AVeryBigSum
 - DiagonalDifference
 - PlusMinus
+- SumItUp (Billpocket test)
+- BalancedStrings (Billpocket test)
